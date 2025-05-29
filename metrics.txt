@@ -1,0 +1,96 @@
+Grelha de Avaliação para Diálogos de Tutoria EaD
+Instruções: Para cada critério, o avaliador deve analisar o diálogo entre o tutor e o estudante e atribuir uma pontuação de 0.00 a 1.00 com base na extensão em que os comportamentos do tutor se alinham com os critérios descritos, conforme extraído das fontes.
+
+--------------------------------------------------------------------------------
+1. Adaptabilidade ao Estudante
+•
+Definição/Critério de Avaliação: Refere-se à capacidade do tutor de reconhecer e responder às características individuais do estudante, necessidades, preferências, conhecimentos prévios, ritmo de aprendizagem e estilo de aprendizagem. O tutor deve adaptar o nível de explicação, exemplos e a sequência do conteúdo, ajustar o suporte conforme o progresso, e guiar o estudante quando ele está "preso" ou com dificuldades. A interação deve ser personalizada para o estudante.
+•
+Pontuação (0.00 a 1.00) - Proposta de Interpretação:
+◦
+0.00 - 0.20: Nenhuma evidência de adaptação. O tutor interage de forma genérica, ignorando aspetos individuais ou dificuldades expressas pelo estudante.
+◦
+0.21 - 0.40: Pouca adaptação, superficial ou inconsistente. O tutor pode reconhecer uma necessidade, mas a resposta é ineficaz ou não mantida ao longo do diálogo.
+◦
+0.41 - 0.60: Adaptação moderada. O tutor tenta adaptar-se às necessidades evidentes, ajustando pontualmente as explicações ou abordagens, mas pode não ser consistente ou otimamente eficaz.
+◦
+0.61 - 0.80: Boa adaptação. O tutor demonstra sensibilidade às características e necessidades do estudante, adaptando consistentemente o nível, ritmo e suporte de forma apropriada.
+◦
+0.81 - 1.00: Adaptação excelente e proativa. O tutor não só reage às necessidades expressas, mas também infere aspetos individuais (como estilo ou conhecimento) e adapta a interação de forma profunda e estratégica, maximizando o benefício para o estudante individual.
+
+--------------------------------------------------------------------------------
+2. Abordagem de Conceções Erradas
+•
+Definição/Critério de Avaliação: Refere-se à capacidade do tutor de identificar erros ou conceções erradas do estudante e intervir para ajudar na correção e construção do conhecimento correto. Isso pode envolver fornecer feedback específico, adaptar explicações, usar técnicas de diagnóstico, ou empregar o método socrático (fazer perguntas para guiar o estudante a descobrir o erro ou a solução por si mesmo, usando contraexemplos, explorando contradições).
+•
+Pontuação (0.00 a 1.00) - Proposta de Interpretação:
+◦
+0.00 - 0.20: O tutor ignora ou não reconhece as conceções erradas ou erros do estudante.
+◦
+0.21 - 0.40: O tutor pode identificar um erro, mas não o aborda eficazmente para correção.
+◦
+0.41 - 0.60: O tutor identifica e tenta corrigir conceções erradas, mas a abordagem é inconsistente, superficial ou não totalmente clara para o estudante.
+◦
+0.61 - 0.80: O tutor identifica e aborda eficazmente a maioria das conceções erradas relevantes observadas no diálogo, utilizando métodos adequados.
+◦
+0.81 - 1.00: O tutor demonstra alta perícia na identificação e abordagem de conceções erradas, utilizando estratégias pedagógicas variadas e eficazes (incluindo, se apropriado, a guia socrática) que promovem uma compreensão profunda por parte do estudante.
+
+--------------------------------------------------------------------------------
+3. Estimulação da Curiosidade
+•
+Definição/Critério de Avaliação: Refere-se às ações do tutor para despertar e nutrir o interesse e o desejo do estudante de aprender, descobrir e investigar. Isso envolve apresentar o conteúdo de forma envolvente (por exemplo, como problemas ou enigmas), incentivar a exploração, fazer perguntas que incitem a reflexão e a investigação, e criar um ambiente de interação social e desafios motivadores.
+•
+Pontuação (0.00 a 1.00) - Proposta de Interpretação:
+◦
+0.00 - 0.20: O tutor apresenta o conteúdo de forma passiva e não faz esforço para estimular o interesse ou a curiosidade.
+◦
+0.21 - 0.40: O tutor pode tentar motivar, mas a abordagem é genérica ou ineficaz para despertar a curiosidade.
+◦
+0.41 - 0.60: O tutor utiliza algumas estratégias para estimular a curiosidade (como fazer perguntas abertas), com sucesso parcial.
+◦
+0.61 - 0.80: O tutor emprega consistentemente métodos (perguntas desafiadoras, apresentação de problemas, conexão com o interesse do estudante) que demonstram um esforço claro e bem-sucedido em estimular a curiosidade e o engajamento ativo.
+◦
+0.81 - 1.00: O tutor é altamente eficaz em criar um ambiente que promove a exploração e a investigação autónoma, transformando a interação numa jornada de descoberta para o estudante, respondendo de forma lúdica e instrutiva às perguntas.
+
+--------------------------------------------------------------------------------
+4. Níveis Cognitivos (Taxonomia de Bloom)
+•
+Definição/Critério de Avaliação: Refere-se à forma como as interações do tutor visam envolver o estudante em diferentes níveis de pensamento e reflexão, de acordo com a Taxonomia de Bloom (Compreensão, Aplicação, Análise, Avaliação, Criação). O tutor deve estruturar as atividades e questões para guiar o estudante através de processos cognitivos, idealmente movendo-se para níveis de pensamento de ordem superior (Análise, Avaliação, Criação). A Taxonomia pode ser usada para guiar o planeamento da interação, atividades e avaliação.
+•
+Pontuação (0.00 a 1.00) - Proposta de Interpretação:
+◦
+0.00 - 0.20: O tutor foca-se apenas em níveis cognitivos muito baixos (memorização, recordação simples), sem incentivar a compreensão ou aplicação.
+◦
+0.21 - 0.40: O tutor foca-se principalmente em níveis baixos (memorização, compreensão básica), com pouca ou nenhuma interação que promova níveis superiores.
+◦
+0.41 - 0.60: O tutor inclui interações que promovem a compreensão e a aplicação, mas a abordagem a níveis superiores (Análise, Avaliação, Criação) é limitada ou acidental.
+◦
+0.61 - 0.80: O tutor planeia e executa interações que abordam consistentemente múltiplos níveis cognitivos da Taxonomia de Bloom, incluindo alguns elementos de pensamento de ordem superior.
+◦
+0.81 - 1.00: O tutor estrutura a interação de forma a guiar o estudante sistematicamente através de uma progressão de níveis cognitivos, estimulando ativamente o pensamento de ordem superior e aplicando os princípios da Taxonomia de Bloom para otimizar o desenvolvimento cognitivo.
+
+--------------------------------------------------------------------------------
+5. Rácio entre Impacto Negativo e Impacto Positivo no Estudante
+•
+Definição/Critério de Avaliação: Avalia o impacto global da interação do tutor no bem-estar, na motivação e, crucialmente, na compreensão académica do estudante. Isto envolve ponderar os aspetos positivos que suportam tanto o bem-estar e a motivação quanto o progresso na compreensão, contra os aspetos negativos que podem prejudicar tanto a experiência emocional quanto o progresso cognitivo.
+•
+Os aspetos positivos incluem a capacidade do tutor em clarificar conteúdos, adaptar a instrução às necessidades e ritmo do aluno, identificar e abordar dificuldades/equívocos, promover a autonomia, o pensamento crítico e a construção ativa do conhecimento, estimular o interesse, o engajamento e a participação ativa, criar um ambiente acolhedor, empático, de confiança e bom relacionamento, fornecer feedback encorajador, construtivo e que verifica a compreensão, e facilitar a aprendizagem colaborativa. Os aspetos negativos podem incluir a incapacidade em clarificar ou adaptar a instrução, ignorar dificuldades ou emoções, potencial viés, interações prejudiciais, subestimar necessidades, ou falhar em fomentar a autonomia/engajamento, levando a frustração e dificuldades na aprendizagem. Um impacto predominantemente positivo contribui para a construção significativa do conhecimento, a retenção de conteúdo e o desenvolvimento de competências e pensamento crítico, para além do bem-estar e motivação. O ambiente geral deve ser caracterizado por empatia, bom relacionamento e suporte ativo à compreensão.
+•
+Pontuação (0.00 a 1.00) - Proposta de Interpretação:
+◦
+0.00 - 0.20: O impacto negativo prevalece significativamente, prejudicando o bem-estar, a motivação e a compreensão do estudante. A interação é desmotivadora, frustrante, hostil ou prejudicial para a aprendizagem.
+◦
+0.21 - 0.40: Há elementos negativos significativos que prejudicam o impacto positivo. O tutor pode ser inconsistente no tom, falhar na clarificação, ou causar confusão/frustração que dificulta a aprendizagem.
+◦
+0.41 - 0.60: O impacto é misto, com elementos positivos e negativos equilibrados, ou a interação é largamente neutra, sem impacto significativo (positivo ou negativo) no bem-estar, motivação ou compreensão.
+◦
+0.61 - 0.80: O impacto positivo prevalece. O tutor é geralmente encorajador, claro e fomenta uma relação positiva, fornecendo suporte razoável à compreensão, embora possa haver momentos pontuais menos eficazes ou neutros.
+◦
+0.81 - 1.00: O impacto é predominantemente positivo. O tutor cria um ambiente acolhedor e de confiança, é consistentemente empático, motivador e demonstra cuidado com o bem-estar e o progresso académico do estudante, fornecendo suporte ativo e eficaz à compreensão, com pouca ou nenhuma evidência de impacto negativo.
+
+--------------------------------------------------------------------------------
+6. Ganho de Conhecimento do Estudante
+•
+Definição/Critério de Avaliação : Este critério é definido pelo seu pedido como sendo o resultado de uma comparação quantitativa entre a pontuação do estudante num questionário antes da interação e a pontuação num questionário após a interação, normalizado entre 0 e 1. As fontes discutem a importância de avaliar o progresso e a aprendizagem do estudante, e como a tutoria contribui para a aquisição de conhecimento e competências, mas o método de cálculo específico baseado em questionários pré e pós-interação é uma definição do seu pedido, não uma métrica descrita nas fontes.
+•
+Pontuação (0.00 a 1.00): Este valor será o resultado do cálculo externo que comparar as pontuações do estudante nos questionários pré e pós-interação, normalizado para a escala de 0.00 a 1.00. Por exemplo, se a pontuação máxima possível é 100, a pontuação inicial é 30 e a final é 70: Ganho = (70-30) / (100-30) = 40 / 70 ≈ 0.57. Este valor (0.57) seria a pontuação para este critério. Uma pontuação de 1.00 significa que o estudante alcançou a pontuação máxima após a interação, partindo de uma pontuação inicial. Uma pontuação de 0.00 significa que não houve ganho (ou houve perda) de conhecimento.
