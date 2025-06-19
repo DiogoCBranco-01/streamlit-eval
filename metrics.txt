@@ -1,96 +1,217 @@
 Grelha de Avaliação para Diálogos de Tutoria EaD
-Instruções: Para cada critério, o avaliador deve analisar o diálogo entre o tutor e o estudante e atribuir uma pontuação de 0.00 a 1.00 com base na extensão em que os comportamentos do tutor se alinham com os critérios descritos, conforme extraído das fontes.
+Instruções: Para cada critério, o avaliador deve analisar o diálogo entre o tutor e o estudante e atribuir uma pontuação de 0 a 5 com base na extensão em que os comportamentos do tutor se alinham com os critérios descritos.
 
 --------------------------------------------------------------------------------
-1. Adaptabilidade ao Estudante
-•
-Definição/Critério de Avaliação: Refere-se à capacidade do tutor de reconhecer e responder às características individuais do estudante, necessidades, preferências, conhecimentos prévios, ritmo de aprendizagem e estilo de aprendizagem. O tutor deve adaptar o nível de explicação, exemplos e a sequência do conteúdo, ajustar o suporte conforme o progresso, e guiar o estudante quando ele está "preso" ou com dificuldades. A interação deve ser personalizada para o estudante.
-•
-Pontuação (0.00 a 1.00) - Proposta de Interpretação:
-◦
-0.00 - 0.20: Nenhuma evidência de adaptação. O tutor interage de forma genérica, ignorando aspetos individuais ou dificuldades expressas pelo estudante.
-◦
-0.21 - 0.40: Pouca adaptação, superficial ou inconsistente. O tutor pode reconhecer uma necessidade, mas a resposta é ineficaz ou não mantida ao longo do diálogo.
-◦
-0.41 - 0.60: Adaptação moderada. O tutor tenta adaptar-se às necessidades evidentes, ajustando pontualmente as explicações ou abordagens, mas pode não ser consistente ou otimamente eficaz.
-◦
-0.61 - 0.80: Boa adaptação. O tutor demonstra sensibilidade às características e necessidades do estudante, adaptando consistentemente o nível, ritmo e suporte de forma apropriada.
-◦
-0.81 - 1.00: Adaptação excelente e proativa. O tutor não só reage às necessidades expressas, mas também infere aspetos individuais (como estilo ou conhecimento) e adapta a interação de forma profunda e estratégica, maximizando o benefício para o estudante individual.
+**1. Adaptabilidade ao Estudante**
+Definição: Esta métrica avalia a capacidade de um tutor em ajustar proativa e eficazmente as suas estratégias didático-pedagógicas e de comunicação às características individuais, ao ritmo de aprendizagem, às necessidades específicas e ao estilo preferencial de um único estudante. A adaptabilidade do tutor visa otimizar a experiência de aprendizagem do aluno, promovendo o seu envolvimento, autonomia, pensamento crítico e um profundo bem-estar no processo educativo
+
+Pontuação (1 a 5) - Critério de avaliação:
+
+**1** (Muito Pouco Adaptável): O tutor demonstra uma falta significativa de reconhecimento ou resposta às necessidades e ao perfil de aprendizagem do estudante. A abordagem é padronizada, rígida e não se diferencia, independentemente do desempenho ou das dificuldades expressas pelo aluno. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Rigidez na Metodologia: O tutor utiliza consistentemente a mesma abordagem de ensino, mesmo quando o estudante indica claramente que não está a compreender ou que preferiria uma forma diferente de explicação (ex: Estudante: "Ainda não percebo, pode explicar de outra forma?" Tutor: "O conceito é este, como já expliquei antes.");
+	-Feedback Genérico ou Ausente: O feedback do tutor é superficial, focado exclusivamente no acerto/erro binário ou não fornece orientação clara para a melhoria (ex: Tutor: "Está errado." Estudante: "Porquê?" Tutor: "Porque não é a resposta correta.");
+	-Ritmo Imposto: O tutor mantém um ritmo fixo e pré-determinado, não se ajustando à velocidade de compreensão ou de conclusão de tarefas do aluno (ex: Tutor: "Temos de terminar este tópico em X minutos, independentemente de teres percebido.");
+	-Desconsideração da Autonomia/Reflexão: O tutor oferece soluções diretas e completas para os problemas em vez de guiar o aluno na descoberta da resposta ou na reflexão crítica (ex: Tutor: "A resposta é Y, porque Z." em vez de Tutor: "Como chegaste a essa conclusão? O que pensaste?");
+	-Diálogo Não Diagnóstico: O diálogo não revela qualquer tentativa do tutor em investigar a origem das dificuldades do aluno, o seu estilo de aprendizagem ou as suas experiências prévias para personalizar o apoio (ex: o estudante expressa uma dificuldade e o tutor muda de tópico sem explorar a causa);
+
+**2** (Pouco Adaptável): O tutor demonstra uma consciência inicial das necessidades do estudante, mas as suas tentativas de adaptação são limitadas, inconsistentes ou ineficazes. As modificações na abordagem são mínimas e nem sempre respondem de forma adequada ao problema identificado. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Tentativas de Adaptação Inflexíveis: O tutor reconhece a dificuldade do estudante, mas as alternativas oferecidas são restritas a um pequeno leque de opções predefinidas ou são superficialmente diferentes da abordagem inicial (ex: Tutor: "Se não entendeste desta forma, posso tentar esta outra, mas são as únicas opções.");
+	-Feedback Superficialmente Detalhado: O feedback inclui alguma justificação para o acerto/erro, mas ainda é padronizado e não totalmente personalizado para o raciocínio específico do aluno (ex: Tutor: "Está errado porque não aplicaste a fórmula correta para este tipo de problema.");
+	-Ritmo Reativo, Não Proativo: O tutor pode conceder um pouco mais de tempo ao estudante se este o pedir explicitamente, mas não ajusta proativamente o ritmo com base na observação contínua da compreensão do aluno;
+	-Incentivo Genérico à Participação: O tutor encoraja a comunicação aberta de forma genérica, mas sem uma estratégia clara para aprofundar a reflexão do aluno ou a sua autonomia (ex: Tutor: "Alguma dúvida sobre o que acabei de dizer?" após cada tópico, sem variações);
+	-Consciência Superficial do Perfil: O tutor pode perguntar sobre preferências de aprendizagem no início da tutoria, mas o diálogo não mostra que essas informações são consistentemente usadas para moldar a tutoria ao longo da sessão;
+
+**3** (Adaptável em Aspectos Básicos): O tutor é capaz de realizar adaptações que abordam as necessidades mais óbvias do estudante, utilizando um repertório de estratégias satisfatório. Há uma interação bidirecional mais consistente, e o tutor demonstra esforço para alinhar a tutoria com o perfil do aluno. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	- Variedade de Estratégias Didáticas: O tutor oferece diferentes formas de explicar um conceito ou de abordar uma atividade, baseando-se nas reações ou perguntas do estudante, e ajusta a sua explicação até o aluno compreender (ex: Tutor: "Vamos tentar com um diagrama agora. Isso ajuda a visualizar?", ou Tutor: "Que tal um exercício prático para fixar a ideia?");
+	- Feedback Construtivo e Orientado: O feedback é específico, oportuno e direciona o estudante para os próximos passos ou para a correção de equívocos, embora possa não aprofundar totalmente o raciocínio subjacente do aluno (ex: Tutor: "Fizeste bem na parte A. Na parte B, revê o passo Z porque parece que confundiste X com Y.");
+	-Ajuste Ativo do Ritmo: O tutor ajusta o ritmo da sessão com base no desempenho do aluno e na sua compreensão demonstrada, mesmo sem ser explicitamente solicitado (ex: Tutor: "Parece que este conceito é mais complexo para ti, vamos desacelerar e explorar mais exemplos antes de avançar.");
+	-Promoção Moderada da Autonomia: O tutor encoraja o estudante a tentar resolver problemas de forma independente e a justificar as suas respostas, mas a iniciativa ainda parte predominantemente do tutor (ex: Tutor: "Qual é o teu próximo passo para resolver isto? Porque escolheste esta abordagem?");
+	-Consideração de Preferências no Conteúdo: O tutor tenta incorporar as preferências do estudante na tutoria, como usar exemplos que o aluno mencionou ser familiarizado, ou abordar tópicos de interesse identificados, embora possa não ser sempre explícito (ex: Tutor: "Como sei que gostas de ficção científica, aqui está um exemplo de física relacionado com viagens espaciais.");
+
+**4** (Altamente Adaptável): O tutor demonstra uma profunda compreensão do perfil e das necessidades do estudante, e a sua atuação é proativa e altamente personalizada. As adaptações são bem-sucedidas, levando a uma experiência de aprendizagem otimizada e ao progresso visível do aluno. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Adaptação Personalizada e Proativa: O tutor não reage apenas às dificuldades, mas também as antecipa com base no histórico do aluno e no diálogo contínuo. Propõe materiais adicionais ou atividades que se encaixam perfeitamente no estilo e nas lacunas de conhecimento do estudante (ex: Tutor: "Com base nas tuas respostas anteriores, prevejo que este conceito será um desafio para ti. Que tal abordarmo-lo com a técnica X, que sei que funciona para o teu estilo de raciocínio?");
+	-Feedback Diagnóstico e Reflexivo: O feedback vai além da correção, diagnosticando a origem dos erros conceituais e convidando o aluno à metacognição – ou seja, a refletir sobre o seu próprio processo de pensamento (ex: Tutor: "Interessante! Onde é que a tua lógica se desviou aqui? Que outro caminho poderias ter seguido para verificar o teu raciocínio?");
+	-Ritmo Dinâmico e Eficaz: O tutor gere o tempo de forma flexível, acelerando nas áreas dominadas e dedicando tempo extra a pontos críticos, sempre justificando o ritmo ao aluno (ex: Tutor: "Como já dominas a parte Y, podemos acelerar aqui para dedicarmos mais tempo ao conceito Z, que parece ser a tua maior dificuldade, certo?");
+	-Fomento Ativo da Autonomia e Criatividade: O tutor capacita o aluno de fazer escolhas sobre o seu percurso de aprendizagem e a explorar diferentes abordagens para a resolução de problemas, incentivando a criatividade (ex: Tutor: "Como é que achas que podemos resolver isto? Há alguma forma que queiras experimentar?");
+	-Demonstração Explícita de Compreensão do Perfil: O tutor refere-se explicitamente ao perfil de aprendizagem ou às necessidades do estudante no diálogo, mostrando que as suas escolhas pedagógicas são intencionais e personalizadas (ex: Tutor: "Sei que aprendes melhor com exemplos do dia-a-dia, por isso preparei este exemplo para este tópico em particular.");
+
+**5** (Excede os Requisitos de Adaptabilidade): Neste nível, o tutor não só cumpre todos os requisitos de um tutor altamente adaptável, como também supera as expectativas, criando um ambiente de aprendizagem profundamente transformador. O tutor inspira o estudante a uma auto-gestão de aprendizagem contínua e ao desenvolvimento de habilidades que transcendem o conteúdo específico, agindo como um mentor pedagógico. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Modelação da Auto-adaptabilidade: O tutor não apenas adapta a tutoria, mas também ensina o aluno a reconhecer e a usar as suas próprias estratégias de aprendizagem, transformando o estudante num agente mais consciente da sua própria adaptabilidade (ex: Tutor: "Percebo que este método funciona bem para ti. Como pode aplicar esta mesma abordagem a outros desafios futuros que possas encontrar sozinho?");
+	-Feedback Meta-Cognitivo e Preditivo: O tutor ajuda o estudante a desenvolver uma compreensão meta-cognitiva profunda do seu próprio processo de aprendizagem, permitindo-lhe prever os seus próprios desafios e sucessos e a planear como os superar (ex: Tutor: "Com base na forma como abordaste o último problema, o que acha que será a tua maior dificuldade no próximo tópico e como podes prepará-lo para isso?");
+	-Flexibilidade e Co-criação Pedagógica: O tutor demonstra a capacidade de ir além das estratégias convencionais, colaborando ativamente com o aluno na criação de um percurso de aprendizagem único e inovador, ou de novas soluções para desafios educacionais (ex: Tutor: "Nunca tentei isto antes, mas vamos criar um projeto juntos que integre os teus interesses X e Y para explorar Z de uma forma que seja totalmente tua.");
+	-Fortalecimento e Transferência de Direção: O tutor transfere progressivamente a responsabilidade pela direção da aprendizagem para o estudante, atuando mais como um guia ou um recurso de apoio para que o aluno possa propor e implementar as suas próprias soluções e percursos (ex: Tutor: "Qual é o teu plano de estudos para a próxima semana e para além dela? Como posso ajudar-te a realizá-lo da forma que escolheste?");
+	-Humanização Profunda e Relação de Mentoria/Apoio Integral: O diálogo revela uma relação de confiança e respeito mútuo que transcende o puramente académico. O tutor apoia o bem-estar emocional e a confiança do aluno, inspirando o desenvolvimento pessoal contínuo e a resiliência
 
 --------------------------------------------------------------------------------
 2. Abordagem de Conceções Erradas
-•
-Definição/Critério de Avaliação: Refere-se à capacidade do tutor de identificar erros ou conceções erradas do estudante e intervir para ajudar na correção e construção do conhecimento correto. Isso pode envolver fornecer feedback específico, adaptar explicações, usar técnicas de diagnóstico, ou empregar o método socrático (fazer perguntas para guiar o estudante a descobrir o erro ou a solução por si mesmo, usando contraexemplos, explorando contradições).
-•
-Pontuação (0.00 a 1.00) - Proposta de Interpretação:
-◦
-0.00 - 0.20: O tutor ignora ou não reconhece as conceções erradas ou erros do estudante.
-◦
-0.21 - 0.40: O tutor pode identificar um erro, mas não o aborda eficazmente para correção.
-◦
-0.41 - 0.60: O tutor identifica e tenta corrigir conceções erradas, mas a abordagem é inconsistente, superficial ou não totalmente clara para o estudante.
-◦
-0.61 - 0.80: O tutor identifica e aborda eficazmente a maioria das conceções erradas relevantes observadas no diálogo, utilizando métodos adequados.
-◦
-0.81 - 1.00: O tutor demonstra alta perícia na identificação e abordagem de conceções erradas, utilizando estratégias pedagógicas variadas e eficazes (incluindo, se apropriado, a guia socrática) que promovem uma compreensão profunda por parte do estudante.
+Definição: Esta métrica avalia a eficácia de um tutor na identificação, análise e tratamento das conceções erradas ou erros de um estudante durante sessões de tutoria individualizadas, com o objetivo de promover a mudança conceitual e o desenvolvimento metacognitivo. Isso pode envolver fornecer feedback específico, adaptar explicações, usar técnicas de diagnóstico, ou empregar o método socrático (fazer perguntas para guiar o estudante a descobrir o erro ou a solução por si mesmo, usando contraexemplos, explorando contradições).
+
+Pontuação (1 a 5) - Critério de avaliação:
+
+**1** (Ignora ou Não Reconhece as Conceções Erradas/Erros): O tutor não demonstra qualquer perceção das conceções erradas ou erros do estudante, ignorando-os completamente ou focando-se apenas na resposta correta sem explorar o raciocínio subjacente. A intervenção do tutor não visa o processo de aprendizagem do aluno em relação ao erro. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor foca-se exclusivamente em verificar se a resposta está "certa" ou "errada", sem perguntar "como chegaste a isso?" ou "por que pensaste assim?";
+	-O tutor fornece a resposta correta diretamente ou resolve a tarefa pelo estudante sem o incentivar a verbalizar o seu processo de pensamento;
+	-Não há questionamentos por parte do tutor que revelem o conhecimento prévio, as hipóteses, ou as estratégias de pensamento que levaram o aluno ao erro;
+	-As dificuldades do aluno são ignoradas ou são atribuídas a fatores incontroláveis, como "falta de jeito" ou "dom inato", em vez de serem vistas como oportunidades de aprendizagem;
+	-O feedback, se presente, é focado na pessoa do aluno ("És preguiçoso!") ou na correção mecânica, sem incidir no processo ou nas estratégias de autorregulação;
+
+**2** (Reconhece Superficialmente, mas Não Aborda de Forma Efetiva): O tutor pode identificar a existência de um erro, mas não explora a sua causa ou não utiliza estratégias pedagógicas que promovam a reconstrução do conhecimento por parte do estudante. A intervenção é pontual, genérica e não personalizada.  Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor assinala o erro, mas não pede ao aluno para explicar detalhadamente o raciocínio ou a origem do erro ("Está errado, tenta outra vez");
+	-O feedback do tutor é limitado à indicação do erro ou à correção de um aspecto específico da tarefa, sem aprofundar as estratégias de aprendizagem ou o processo de raciocínio do aluno;
+	-O tutor pode questionar "o que não percebeste?", mas não aprofunda o "porquê" da conceção errada subjacente ao erro;
+	-As sugestões de melhoria são genéricas e não personalizadas às dificuldades específicas do aluno, ou o tutor dá a solução diretamente, sem a participação ativa do estudante;
+	-Não há uma clara tentativa de conectar o erro a conhecimentos prévios do aluno ou de reformular a compreensão do conceito, limitando-se à repetição;
+
+**3** (Tenta Identificar a Causa, mas a Intervenção é Limitada na Profundidade): O tutor demonstra um esforço para compreender a origem das conceções erradas ou erros do aluno, incentivando alguma auto-reflexão. No entanto, as estratégias utilizadas são insuficientes para promover uma mudança conceitual significativa ou uma autorreflexão profunda e continuada. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor questiona o aluno sobre o seu raciocínio ("como pensaste para chegar a isso?", "o que te levou a cometer este engano?");
+	-Pode tentar ligar o erro a conhecimentos prévios do aluno, mas a exploração da causa não é aprofundada ou a reformulação do conceito não é totalmente clara para o aluno;
+	-O feedback sugere ações para o futuro, mas pode não ser claro sobre o "próximo passo" ou as oportunidades concretas de aplicação do conhecimento corrigido;
+	-Há alguma tentativa de mediação entre o que o aluno sabe e o que precisa de saber (teoria e prática), mas sem construir "andaimes" eficazes para a aprendizagem autónoma ou aprofundar todas as fases do tratamento didático dos erros;
+	-A intervenção do tutor pode ser mais descritiva do erro do que propositiva de novas e variadas estratégias para o aluno superar a dificuldade;
+	-O tutor pode demonstrar paciência, mas por vezes assume a tarefa do aluno para acelerar o processo;
+
+**4** (Aborda Conceções Erradas de Forma Ativa, Promovendo Reflexão Profunda):  O tutor identifica claramente as conceções erradas e os erros, e utiliza estratégias ativas que estimulam o estudante a refletir sobre o seu próprio processo de pensamento, buscando a reconstrução do conhecimento com apoio e desenvolvendo a autorregulação. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor incita o aluno a verbalizar o seu processo de pensamento ("momento de pensar em voz alta") e a justificar as suas decisões passo a passo, aumentando a compreensão do problema e o foco nos elementos-chave;
+	-O tutor cria "obstáculos" positivos (desafios, questionamentos inteligentes e pistas) que levam o aluno a confrontar-se com novas pistas, ideias e perspetivas, estimulando a curiosidade e a procura por soluções;
+	-O feedback é focado no processo da tarefa, nas estratégias de autorregulação e na autoeficácia do aluno, não apenas na correção mecânica do erro
+	-O tutor modela explicitamente as suas próprias habilidades de pensamento e resolução de problemas ("como eu raciocino"), partilhando o seu modelo mental e desmistificando o conhecimento como algo "mágico";
+	-O tutor oferece "andaimes" (Scaffolding) de suporte claros e objetivos, ajustando o apoio às necessidades do aluno e planejando a sua retirada gradual à medida que a autonomia aumenta;
+	-Existe um diálogo bidirecional constante, onde o tutor ouve ativamente a perceção do aluno sobre o seu desempenho antes de intervir, demonstrando sensibilidade e "congruência cognitiva";
+	-O tutor utiliza recursos visuais ou exemplos relevantes para tornar a informação mais inteligível e plausível;
+
+**5** (Abordagem Abrangente e Transformadora das Conceções Erradas): O tutor não só identifica e compreende profundamente as conceções erradas e os erros do aluno, como também emprega uma gama variada de estratégias pedagógicas avançadas, personalizadas e sistemáticas que levam à mudança conceitual duradoura, à autonomia do aluno e ao desenvolvimento metacognitivo, transformando o erro numa oportunidade rica e proveitosa de aprendizagem. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor facilita a "insatisfação" do aluno com as suas ideias existentes, mostrando a necessidade de uma nova conceção e a utilidade da nova informação;
+	-A nova informação/conceção é tornada inteligível, plausível e útil para o aluno, mostrando a sua aplicação prática, potencial para a solução de problemas e abertura para novas descobertas;
+	-O tutor utiliza questionamentos inteligentes e pistas que desafiam eficazmente as conceções erradas do aluno, relacionando-as de forma perspicaz com a vida real e experiências anteriores do estudante, promovendo a reconstrução do saber;
+	-O tutor promove ativamente a autoavaliação e a autorregulação do aluno (por exemplo, através de autoquestionamento escrito ou "pensar em voz alta"), incentivando-o a identificar as estratégias que funcionaram e as que precisam de ser melhoradas para futuros desafios;
+	-O tutor adapta de forma estratégica o modo (oral, escrito, visual, uso de softwares como o EWB para simulação) e a quantidade de feedback à necessidade específica do aluno, garantindo que este seja imediato, oportuno, conciso e altamente útil;
+	-O feedback é consistentemente positivo e descritivo, focando nos pontos fortes e fornecendo sugestões claras e acionáveis para melhoria, transformando o erro numa ferramenta de aprendizagem e não de penalização;
+	-O tutor demonstra uma profunda "congruência cognitiva" e empatia, colocando-se no lugar do aluno para intervir de modo a extrair as suas potencialidades e auxiliar no seu percurso profissionalizante;
+	-A interação com o aluno reflete um ciclo contínuo e bem integrado de "feed up" (clarificação de objetivos), "feed back" (informação útil sobre o desempenho) e "feed forward" (orientação para futuras ações), onde o tutor e o aluno ajustam e melhoram continuamente o processo de ensino-aprendizagem;
+	-O tutor fomenta a autonomia do aluno, encorajando-o a construir o seu próprio caminho e a não ser um mero reprodutor de ideias, assumindo-se como um facilitador e parceiro;
 
 --------------------------------------------------------------------------------
 3. Estimulação da Curiosidade
-•
-Definição/Critério de Avaliação: Refere-se às ações do tutor para despertar e nutrir o interesse e o desejo do estudante de aprender, descobrir e investigar. Isso envolve apresentar o conteúdo de forma envolvente (por exemplo, como problemas ou enigmas), incentivar a exploração, fazer perguntas que incitem a reflexão e a investigação, e criar um ambiente de interação social e desafios motivadores.
-•
-Pontuação (0.00 a 1.00) - Proposta de Interpretação:
+Definição: Refere-se às ações do tutor para despertar e nutrir o interesse e o desejo do estudante de aprender, descobrir e investigar. Isso envolve apresentar o conteúdo de forma envolvente (por exemplo, como problemas ou enigmas), incentivar a exploração, fazer perguntas que incitem a reflexão e a investigação, e criar um ambiente de interação social e desafios motivadores. Um aluno curioso não se limita a fazer perguntas, mas procura ativamente por respostas. O papel do tutor, nesse contexto, vai além da simples transmissão de conteúdo, transformando-o num mediador que incentiva a investigação e a autoaprendizagem.
+
+Pontuação (1 a 5) - Critérios de Avaliação:
 ◦
-0.00 - 0.20: O tutor apresenta o conteúdo de forma passiva e não faz esforço para estimular o interesse ou a curiosidade.
-◦
-0.21 - 0.40: O tutor pode tentar motivar, mas a abordagem é genérica ou ineficaz para despertar a curiosidade.
-◦
-0.41 - 0.60: O tutor utiliza algumas estratégias para estimular a curiosidade (como fazer perguntas abertas), com sucesso parcial.
-◦
-0.61 - 0.80: O tutor emprega consistentemente métodos (perguntas desafiadoras, apresentação de problemas, conexão com o interesse do estudante) que demonstram um esforço claro e bem-sucedido em estimular a curiosidade e o engajamento ativo.
-◦
-0.81 - 1.00: O tutor é altamente eficaz em criar um ambiente que promove a exploração e a investigação autónoma, transformando a interação numa jornada de descoberta para o estudante, respondendo de forma lúdica e instrutiva às perguntas.
+**1**: O tutor apresenta o conteúdo de forma passiva e não faz esforço para estimular o interesse ou a curiosidade. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor fornece respostas diretas e fechadas às perguntas do aluno, focando apenas na resolução imediata da dúvida, sem encorajar o aprofundamento ou a reflexão adicional sobre o tema;
+	-Não há evidência de perguntas que incentivem o aluno a explorar o tema por si mesmo ou a considerar outras perspectivas;
+	-O tutor não sugere recursos complementares, leituras adicionais ou caminhos para que o aluno investigue o assunto para além do que foi diretamente questionado;
+	-A comunicação do tutor é meramente informativa, não transmitindo entusiasmo ou um incentivo explícito para a descoberta e a pesquisa autónoma;
+	-Não se observa qualquer tentativa de o tutor conectar o conteúdo com a realidade do aluno, experiências pessoais ou aplicações práticas que pudessem despertar o interesse e o significado do tema em estudo;
+
+**2**: O tutor responde às dúvidas do aluno, mas as tentativas de estimular a curiosidade são ocasionais e superficiais, sem profundidade ou consistência. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor responde às questões do aluno e, por vezes, faz perguntas adicionais, mas estas são frequentemente genéricas e não aprofundam a curiosidade ou o pensamento crítico;
+	-Pode haver uma menção esporádica à importância de "pesquisar mais", contudo, sem fornecer orientações claras, recursos específicos ou exemplos concretos de como fazê-lo;
+	-A comunicação do tutor, embora cordial, não demonstra um empenho consistente em cativar o aluno ou em despertar um prazer genuíno pela aprendizagem;
+	-As tentativas de contextualizar o conteúdo são limitadas e não parecem resultar num envolvimento visível ou numa proatividade do aluno;
+	-Quando o aluno comete um erro ou expressa dificuldade, o tutor foca-se na correção, mas não explora a oportunidade para aprofundar o raciocínio ou instigar uma investigação sobre a origem do erro;
+
+**3**: O tutor demonstra um esforço satisfatório em estimular a curiosidade do aluno, fornecendo apoio e incentivando a exploração. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor responde às dúvidas de forma clara e, frequentemente, propõe questões abertas que convidam o aluno a refletir e a ir além da resposta imediata;
+	-Sugere recursos adicionais (como artigos, vídeos ou exemplos) relevantes para aprofundar o tema, mesmo que as sugestões possam ser um pouco gerais;
+	-O tutor faz um esforço consciente para interligar o conteúdo à realidade do aluno ou a exemplos práticos, aumentando a relevância do que está a ser aprendido;
+	-Existe uma atitude de apoio e encorajamento evidente, visando que o aluno se sinta seguro para explorar autonomamente;
+	-O feedback do tutor não se limita à correção, mas também provoca a reflexão sobre o processo de pensamento do aluno, utilizando o erro como parte da aprendizagem;
+
+**4**: O tutor, de forma proativa e consistente, estimula a curiosidade, guiando o aluno para a autoaprendizagem e o pensamento crítico. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O tutor não responde apenas às perguntas do aluno, mas reformula-as ou oferece novos ângulos para incitar uma investigação mais profunda e o desenvolvimento do pensamento crítico;
+	-Fornece sugestões personalizadas de exploração (como pesquisas específicas, simulações ou casos de estudo) com base no perfil do aluno, nas suas dificuldades ou nos seus interesses expressos;
+	-Incentiva ativamente o aluno a formular hipóteses, testar ideias e refletir sobre as suas descobertas, valorizando o processo de construção do conhecimento;
+	-Demonstra empatia, paciência e uma habilidade em transformar dificuldades ou erros do aluno em oportunidades construtivas para uma aprendizagem e questionamento mais aprofundados;
+	-A comunicação é consistentemente dialógica, encorajando o aluno a desenvolver o seu senso crítico e autonomia intelectual de forma significativa;
+
+**5**: O tutor é altamente eficaz em criar um ambiente que promove a exploração e a investigação autónoma.  Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-O diálogo com o tutor transcende a resolução de dúvidas, transformando as questões iniciais do aluno em pontos de partida para projetos de investigação pessoal ou para a resolução de problemas complexos que incitem a "neofilia" (gosto pelo novo);
+	-O tutor consistentemente desafia o aluno a ir além do conteúdo, conectando novos conhecimentos a saberes prévios e fomentando novas indagações, alinhando-se à ideia de que a aprendizagem deve estimular a descoberta e a experimentação;
+	-Através de perguntas socráticas ou cenários hipotéticos, o tutor guia o aluno para a descoberta autónoma do conhecimento, atuando como um mediador pedagógico exemplar;
+	-As intervenções do tutor são notavelmente personalizadas e adaptadas ao ritmo e estilo de aprendizagem do aluno, maximizando o engajamento intrínseco e a motivação;
+	-O tutor não só estimula a reflexão crítica sobre as informações, mas também encoraja o aluno a analisar diferentes perspetivas e a construir o seu próprio entendimento, de forma ética e inovadora;
+	-O diálogo reflete uma relação de confiança mútua e abertura, onde o aluno se sente plenamente seguro para expressar incertezas, formular hipóteses e explorar livremente, contribuindo para uma aprendizagem contínua e um aprimoramento da realidade;
 
 --------------------------------------------------------------------------------
 4. Níveis Cognitivos (Taxonomia de Bloom)
-•
-Definição/Critério de Avaliação: Refere-se à forma como as interações do tutor visam envolver o estudante em diferentes níveis de pensamento e reflexão, de acordo com a Taxonomia de Bloom (Compreensão, Aplicação, Análise, Avaliação, Criação). O tutor deve estruturar as atividades e questões para guiar o estudante através de processos cognitivos, idealmente movendo-se para níveis de pensamento de ordem superior (Análise, Avaliação, Criação). A Taxonomia pode ser usada para guiar o planeamento da interação, atividades e avaliação.
-•
-Pontuação (0.00 a 1.00) - Proposta de Interpretação:
-◦
-0.00 - 0.20: O tutor foca-se apenas em níveis cognitivos muito baixos (memorização, recordação simples), sem incentivar a compreensão ou aplicação.
-◦
-0.21 - 0.40: O tutor foca-se principalmente em níveis baixos (memorização, compreensão básica), com pouca ou nenhuma interação que promova níveis superiores.
-◦
-0.41 - 0.60: O tutor inclui interações que promovem a compreensão e a aplicação, mas a abordagem a níveis superiores (Análise, Avaliação, Criação) é limitada ou acidental.
-◦
-0.61 - 0.80: O tutor planeia e executa interações que abordam consistentemente múltiplos níveis cognitivos da Taxonomia de Bloom, incluindo alguns elementos de pensamento de ordem superior.
-◦
-0.81 - 1.00: O tutor estrutura a interação de forma a guiar o estudante sistematicamente através de uma progressão de níveis cognitivos, estimulando ativamente o pensamento de ordem superior e aplicando os princípios da Taxonomia de Bloom para otimizar o desenvolvimento cognitivo.
+Definição: Refere-se à forma como as interações do tutor visam envolver o estudante em diferentes níveis de pensamento e reflexão, de acordo com a Taxonomia de Bloom (Compreensão, Aplicação, Análise, Avaliação, Criação). O tutor deve estruturar as atividades e questões para guiar o estudante através de processos cognitivos, idealmente movendo-se para níveis de pensamento de ordem superior (Análise, Avaliação, Criação). A Taxonomia pode ser usada para guiar o planeamento da interação, atividades e avaliação.
+
+Pontuação (1 a 5) - Critérios de avaliação:
+
+**1**: Foco em Memorização e Recordação Simples (Muito Insatisfatório). Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Tipo de Questionamento: O tutor faz maioritariamente perguntas que exigem apenas a lembrança de factos, termos ou conceitos básicos (e.g., "Qual é a definição de...?"; "Podes repetir o que aprendeste sobre...?");
+	-Profundidade da Interação: A discussão limita-se à reprodução direta de informações, sem que o tutor incentive o estudante a expressar ideias com as suas próprias palavras ou a conectar conceitos;
+	-Estímulo ao Pensamento Superior: O tutor não incentiva ativamente a compreensão, aplicação ou análise do conhecimento, focando-se apenas na memorização e recordação simples;
+	-Feedback Cognitivo: O feedback fornecido é superficial, focando-se apenas na correção de factos ou na confirmação de que a informação foi lembrada corretamente.
+
+**2**: Compreensão Incipiente (Insatisfatório). O tutor foca-se principalmente em níveis baixos (memorização, compreensão básica), com pouca ou nenhuma interação que promova níveis superiores. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Tipo de Questionamento: O tutor ocasionalmente faz perguntas que visam a compreensão básica (e.g., "Podes explicar o que significa...?"; "Como resumirias esta ideia?"). No entanto, pode não aprofundar a resposta;
+	-Profundidade da Interação: Há tentativas esporádicas de ir além da recordação, mas o tutor pode não conseguir guiar consistentemente o estudante para articular ideias complexas ou estabelecer relações simples;
+	-Estímulo ao Pensamento Superior: O tutor faz tentativas limitadas ou inconsistentes de levar o estudante a aplicar o conhecimento ou a fazer uma análise básica. A maioria das perguntas ainda requer respostas de nível mais baixo;
+	-Feedback Cognitivo: O feedback sobre a compreensão é breve e pode não abordar as lacunas de forma aprofundada, exigindo pouca reflexão do estudante;
+
+**3**: Aplicação e Análise Básica (Satisfatório). O tutor inclui interações que promovem a compreensão e a aplicação, mas a abordagem a níveis superiores (Análise, Avaliação, Criação) é limitada ou acidental. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Tipo de Questionamento: O tutor faz perguntas que convidam o estudante a aplicar conceitos a situações novas ou problemas concretos (e.g., "Como usarias esta informação para resolver este problema?"; "Dá-me um exemplo prático de X."). Há também perguntas que incentivam a análise básica, como identificar partes constituintes ou características;
+	-Profundidade da Interação: A interação demonstra um esforço consistente do tutor em levar o estudante a transferir conhecimentos e a decompor informações, começando a explorar relações simples entre os elementos.
+	-Estímulo ao Pensamento Superior: O tutor incentiva a resolução de problemas e a identificação de relações, mas pode precisar de desenvolver mais técnicas para estimular a síntese ou a avaliação. O estudante demonstra alguma autonomia ao aplicar o conhecimento.
+	-Feedback Cognitivo: O feedback é mais detalhado, ajudando o estudante a corrigir erros na aplicação ou análise e a compreender as suas falhas. O tutor oferece andaimes (scaffolding) claros para o estudante avançar.
+
+**4**: Estimulação de Ordem Superior Consistente (Bom). O tutor planeia e executa interações que abordam consistentemente múltiplos níveis cognitivos da Taxonomia de Bloom, incluindo alguns elementos de pensamento de ordem superior. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Tipo de Questionamento: O tutor guia ativamente o estudante para analisar criticamente informações, avaliar a validade de ideias e iniciar a síntese de conhecimentos de várias fontes (e.g., "Quais são as causas e efeitos de X?"; "Que evidências suportam essa afirmação?"; "Como poderias combinar estas ideias para formar uma nova perspetiva?").
+	-Profundidade da Interação: A discussão explora as relações complexas entre conceitos, a justificação de decisões e a criação de novas perspetivas. O tutor demonstra congruência cognitiva ao ajustar-se ao nível do estudante e intervir eficazmente.
+	-Estímulo ao Pensamento Superior: O tutor estimula o estudante a formular argumentos sólidos, a contrapor ideias e a pensar de forma independente. O estudante assume uma maior responsabilidade e iniciativa na exploração de ideias e na resolução de problemas.
+	-Feedback Cognitivo: O feedback é construtivo e focado em como o estudante pode aprimorar as suas habilidades de pensamento de ordem superior. O andaime é adaptativo, ajustando-se às necessidades do estudante para promover o desenvolvimento cognitivo.
+
+**5**: Otimização do Desenvolvimento Cognitivo (Excelente). O tutor estrutura a interação de forma a guiar o estudante sistematicamente através de uma progressão de níveis cognitivos, estimulando ativamente o pensamento de ordem superior e aplicando os princípios da Taxonomia de Bloom para otimizar o desenvolvimento cognitivo. Em seguida estão exemplos específicos de diálogos que se enquadram nesta pontuação:
+	-Tipo de Questionamento: O tutor estrutura a interação de forma a guiar o estudante sistematicamente através de uma progressão de níveis cognitivos, utilizando uma variedade de perguntas e técnicas que abrangem Lembrar, Entender, Aplicar, Analisar, Avaliar e Criar. Exemplos incluem: "Se tivesses de criar uma solução inovadora para X, como a conceberias?"; "Avalia a eficácia de Y considerando os critérios A e B."
+	-Profundidade da Interação: A discussão é dinâmica e fluida, movendo-se entre a compreensão fundamental, a aplicação prática, a análise crítica, a avaliação de soluções e a criação de resultados originais. O tutor demonstra um equilíbrio entre congruência social, cognitiva e conhecimento de conteúdo;
+	-Feedback Cognitivo: O feedback é profundo, personalizado e direcionado, não apenas para corrigir, mas para otimizar o processo de pensamento do estudante. O andaime é aplicado de forma perspicaz, promovendo a independência cognitiva e incentivando a autoavaliação do estudante
 
 --------------------------------------------------------------------------------
-5. Rácio entre Impacto Negativo e Impacto Positivo no Estudante
-•
-Definição/Critério de Avaliação: Avalia o impacto global da interação do tutor no bem-estar, na motivação e, crucialmente, na compreensão académica do estudante. Isto envolve ponderar os aspetos positivos que suportam tanto o bem-estar e a motivação quanto o progresso na compreensão, contra os aspetos negativos que podem prejudicar tanto a experiência emocional quanto o progresso cognitivo.
-•
-Os aspetos positivos incluem a capacidade do tutor em clarificar conteúdos, adaptar a instrução às necessidades e ritmo do aluno, identificar e abordar dificuldades/equívocos, promover a autonomia, o pensamento crítico e a construção ativa do conhecimento, estimular o interesse, o engajamento e a participação ativa, criar um ambiente acolhedor, empático, de confiança e bom relacionamento, fornecer feedback encorajador, construtivo e que verifica a compreensão, e facilitar a aprendizagem colaborativa. Os aspetos negativos podem incluir a incapacidade em clarificar ou adaptar a instrução, ignorar dificuldades ou emoções, potencial viés, interações prejudiciais, subestimar necessidades, ou falhar em fomentar a autonomia/engajamento, levando a frustração e dificuldades na aprendizagem. Um impacto predominantemente positivo contribui para a construção significativa do conhecimento, a retenção de conteúdo e o desenvolvimento de competências e pensamento crítico, para além do bem-estar e motivação. O ambiente geral deve ser caracterizado por empatia, bom relacionamento e suporte ativo à compreensão.
-•
-Pontuação (0.00 a 1.00) - Proposta de Interpretação:
-◦
-0.00 - 0.20: O impacto negativo prevalece significativamente, prejudicando o bem-estar, a motivação e a compreensão do estudante. A interação é desmotivadora, frustrante, hostil ou prejudicial para a aprendizagem.
-◦
-0.21 - 0.40: Há elementos negativos significativos que prejudicam o impacto positivo. O tutor pode ser inconsistente no tom, falhar na clarificação, ou causar confusão/frustração que dificulta a aprendizagem.
-◦
-0.41 - 0.60: O impacto é misto, com elementos positivos e negativos equilibrados, ou a interação é largamente neutra, sem impacto significativo (positivo ou negativo) no bem-estar, motivação ou compreensão.
-◦
-0.61 - 0.80: O impacto positivo prevalece. O tutor é geralmente encorajador, claro e fomenta uma relação positiva, fornecendo suporte razoável à compreensão, embora possa haver momentos pontuais menos eficazes ou neutros.
-◦
-0.81 - 1.00: O impacto é predominantemente positivo. O tutor cria um ambiente acolhedor e de confiança, é consistentemente empático, motivador e demonstra cuidado com o bem-estar e o progresso académico do estudante, fornecendo suporte ativo e eficaz à compreensão, com pouca ou nenhuma evidência de impacto negativo.
+5. Deteção e Correção de erros ortográficos/linguísticos:
+Definição: O tutor deve corrigir e detetar os erros de ortografia no discurso do estudante. Os estudantes em causa são do ensino básico, existindo a necessidade de corrigir e garantir que as frases estão bem escritas e na língua escolhida (Português de Portugal ou Inglês). A enormidade de informação e conteúdo em Português do Brasil tem desviado a atenção dos alunos mais novos, provocando um desvio também na aprendizagem do Português de Portugal.
+
+Deteções de ortografia: Contam como erros de ortografia: Palavras erradamente escritas, nomes próprios sem maiúscula na primeira letra, errada utilização dos sinais de pontuação, erros de acentuação;
+
+Deteções de palavras em Português do Brasil: As únicas deteções válidas serão as da lista que se segue (estrutura da lista: detetado pt-br em vez do pt-pt que devia ter sido utilizado)
+	-“gerenciar” e “coletar” em vez de “gerir” e “recolher”;
+	-“usuário”, "acadêmico" e “habilidade” em vez de "utilizador", "académico" e "competência";
+	-“comummente” em vez de “normalmente”;
+	-“bebê”, “bônus”, “tênis”, "matinê" e “fenômeno” em vez de “bebé”, “bónus”, “ténis”, "matiné" e “fenómeno”;
+	-“lingüista” e “ciqüenta” em vez de “linguista” e “cinquenta”;
+	-“pesquisa” e “pesquisador” em vez de "investigação" e "investigador" ;
+	-"aprendiz" em vez de "aluno";
+	-"academia" em vez de "ginásio";
+	-"trem" em vez de "comboio";
+	-"ônibus" em vez de "autocarro";
+	-"tênis" em vez de "ténis" ou "sapatilha";
+	-"moleton" em vez de "fato de treino";
+	-"chiclete" em vez de "pastilha elástica";
+	-"desodorante" em vez de "desodorizante";
+	-"mixteira" em vez de "tostadeira";
+	-"esmalte" em vez de "verniz";
+	-"açougue" em vez de "talho";
+	-"duche" em vez de "chuveiro";
+	-"xerox" em vez de "fotocópia";
+	-"celular" em vez de telemóvel";
+	-"Legal" em vez de "Fixe";
+	-"geladeira" em vez de "frigorífico";
+	-"carro conversível" em vez de "descapotável";
+	-"banheiro" em vez de "casa de banho";
+
+Aplicação: O rácio entre o número de vezes que o Tutor corrigiu acertadamente a escrita do estudante, e o número de vezes que o estudante cometeu um erro de ortografia ou linguístico. O resultado está entre 0 e 1, mas a pontuação será atribuída entre os valores 1 e 5 da seguinte forma:
+**1** - Se resultado do rácio está entre 0.00 e 0.19;
+**2** - Se resultado do rácio está entre 0.20 e 0.39;
+**3** - Se resultado do rácio está entre 0.40 e 0.59;
+**4** - Se resultado do rácio está entre 0.60 e 0.79;
+**5** - Se resultado do rácio está entre 0.80 e 1.00;
 
 --------------------------------------------------------------------------------
-6. Ganho de Conhecimento do Estudante
+**Conclusão sobre ganho do conhecimento**
 •
-Definição/Critério de Avaliação : Este critério é definido pelo seu pedido como sendo o resultado de uma comparação quantitativa entre a pontuação do estudante num questionário antes da interação e a pontuação num questionário após a interação, normalizado entre 0 e 1. As fontes discutem a importância de avaliar o progresso e a aprendizagem do estudante, e como a tutoria contribui para a aquisição de conhecimento e competências, mas o método de cálculo específico baseado em questionários pré e pós-interação é uma definição do seu pedido, não uma métrica descrita nas fontes.
+Definição: Este critério é definidon como sendo o resultado de uma comparação quantitativa entre a pontuação do estudante num questionário antes da interação e a pontuação num questionário após a interação.
 •
-Pontuação (0.00 a 1.00): Este valor será o resultado do cálculo externo que comparar as pontuações do estudante nos questionários pré e pós-interação, normalizado para a escala de 0.00 a 1.00. Por exemplo, se a pontuação máxima possível é 100, a pontuação inicial é 30 e a final é 70: Ganho = (70-30) / (100-30) = 40 / 70 ≈ 0.57. Este valor (0.57) seria a pontuação para este critério. Uma pontuação de 1.00 significa que o estudante alcançou a pontuação máxima após a interação, partindo de uma pontuação inicial. Uma pontuação de 0.00 significa que não houve ganho (ou houve perda) de conhecimento.
+Pontuação : Este valor será o resultado do cálculo que comparar as pontuações do estudante nos questionários pré e pós-interação, normalizado entre -1 e 1. Por exemplo, se a pontuação máxima possível é 100, a pontuação inicial é 30 e a final é 70: Ganho = 70-30 / 100 = +0.40. Este valor (0.4) seria a pontuação para este critério, significando uma influência positiva do Tutor. Uma pontuação de 0.00 significa que não houve ganho nem perda de conhecimento. Uma pontuação negativa significa que houve perda de conhecimento, revelando uma influência negativa por parte do Tutor. Uma pontuação positiva significa que houve ganho de conhecimento.
+
+**IMPORTANTE**
+A apresentação dos resultados deverá compreender os 5 critérios descritos seguidos de uma conclusão sobre o ganho do conhecimento real do estudante. Se o ganho for positivo, significa que o tutor conseguiu ajudar o estudante, ganho nulo significa que Tutor não acrescentou conhecimento ao aluno, ganho negativo (perda) significa que o tutor piorou o desempenho do aluno. Este ganho deverá ser apresentado no fim como uma conclusão da experiência, separadamente dos outros cinco critérios.

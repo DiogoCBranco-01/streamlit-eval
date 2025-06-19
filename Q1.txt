@@ -1,0 +1,108 @@
+Português:
+
+--------------------------------------------------------
+Pergunta 1: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Enche a banheira com água salgada para colocar o tubarão."
+
+Resposta Ideal: Tipo Imperativo
+
+Pontuações: Refere que é do tipo imperativo (10 pontos). Refere outro tipo (0 pontos).
+
+Pontuação total: (10 pontos)
+
+
+--------------------------------------------------------
+Pergunta 2: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Que tubarão grande!"
+
+Resposta Ideal: Tipo exclamativo
+
+Pontuações: Refere que é do tipo exclamativo (10 pontos). Refere outro tipo (0 pontos).
+
+Pontuação total: (10 pontos)
+
+
+---------------------------------------------------------
+Pergunta 3: **Reescreve** a frase no __plural__: "O jovem fez a mais admirável descoberta."
+
+Resposta Ideal: Os jovens fizeram as mais admiráveis descobertas.
+
+Pontuações: Substitui "jovem" por "jovens" (2 pontos). Substitui "fez" por "fizeram" (2 pontos). Substitui "a" por "as" (2 pontos). Substitui "admirável" por "admiráveis" (2 pontos). Substitui "descoberta" por "descobertas" (2 pontos). Substitui outra palavra erradamente (-1 ponto)
+
+Pontuação total: (10 pontos)
+
+
+-----------------------------------------------------------
+Pergunta 4:  **Reescreve** a frase, substituindo as palavras destacadas por **__antónimos__**: "**Terminada** a pescaria, o rapaz **enervou-se**."
+
+Resposta ideal: Começada a pescaria, o rapaz acalmou-se.
+
+Pontuações: Substitui "Terminada" por: "Começada", "Iniciada" ou um antónimo de "terminada" (5 pontos). Substitui "enervou-se" por: "acalmou-se", "tranquilizou-se" ou um antónimo de "enervou-se" (5 pontos).
+
+Pontuação total: (10 pontos)
+
+
+------------------------------------------------------------
+Pergunta 5: **Reescreve** a frase, substituindo as palavras destacadas por __sinónimos__: "Era uma vez um tubarão **belo** e **veloz** e um menino **esperto** e **valente**."
+
+Resposta ideal:  Era uma vez um tubarão **lindo** e **rápido** e um menino **astuto** e **corajoso**.
+
+Pontuações: Substitui "belo" por: "lindo", "bonito" ou um sinónimo de "belo" (2.5 pontos). Substitui "veloz" por "rápido", ou um sinónimo de "veloz" (2.5 pontos).  Substitui "esperto" por: "astuto", "inteligente" ou um sinónimo de "esperto" (2.5 pontos). Substitui "valente" por: "corajoso", ou um sinónimo de "valente" (2.5 pontos)
+
+Pontuação total: (10 pontos)
+
+
+-------------------------------------------------------------
+Pergunta 6: **Lê** as frases e escolhe qual das palavras destacadas pertencem à classe **__quantificador numeral__**: "**O** rapaz **foi** pescar **duas** vezes com o avô. Como era **muito esperto**, convenceu o avô de que o tubarão era apenas **um peixe enorme**. A mãe **não** queria acreditar no que via, por isso **esfregou** os **olhos três** vezes!"
+
+Resposta Ideal: duas e três.
+
+Pontuações: Identifica a palavra "duas" (5 pontos). Identifica a palavra "três" (5 pontos). Identifica outras palavras (-5 pontos por cada palavra errada, atribuindo no mínimo 0 pontos).
+
+Pontuação total: (10 pontos)
+
+
+-------------------------------------------------------------
+Pergunta 7: **Lê** as frases e escolhe as palavras destacadas que pertencem à classe **__advérbio__**: **O** rapaz **foi** pescar **duas** vezes com o avô. Como era **muito esperto**, convenceu o avô de que o 
+tubarão era apenas **um peixe enorme**. A mãe **não** queria acreditar no que via, por isso **esfregou**
+os **olhos três** vezes!"
+
+Resposta Ideal: muito e não.
+
+Pontuações: Identifica a palavra "muito" (5 pontos). Identifica a palavra "não" (5 pontos). Identifica outras palavras (-5 pontos por cada palavra errada, atribuindo no mínimo 0 pontos).
+
+Pontuação total: (10 pontos)
+
+
+--------------------------------------------------------------
+Pergunta 8: Qual é o **__grau do adjetivo__** na frase: "O rapaz era mais conversador do que o avô."
+
+Resposta Ideal: Grau comparativo de superioridade.
+
+Pontuações: Identifica o Grau comparativo (5 pontos). Identifica que é de superioridade (5 pontos).
+
+Pontuação total: (10 pontos)
+
+
+----------------------------------------------------------------
+Pergunta 9: **Reescreve** a frase com o adjetivo no **__grau superlativo absoluto analítico__**: "É um tubarão rapidíssimo."
+
+Resposta Ideal: É um tubarão muito rápido
+
+Pontuações: Substitui "rapidíssimo" por "muito rápido" (10 pontos).
+
+Pontuação total: (10 pontos)
+
+
+-----------------------------------------------------------------
+Pergunta 10: **Reescreve** as frases com **__preposições__**, sem as repetires: "____ o almoço, eles decidiram ir ____ à praia ____ nadar ____ os peixes. Estava tanto frio que voltaram ____ molhar os pés."
+
+Resposta Ideal: Após o almoço, eles decidiram ir até à praia para nadar com os peixes. Estava tanto frio que voltaram sem molhar os pés.
+
+Pontuações: Substitui cada ____ por uma preposição coerente com a estrutura das frases (2 pontos por cada)
+
+Pontuação total: (10 pontos)
+
+
+----------------------------------------------------------------
+
+
+Pontuação Final = Soma das pontuações totais de cada pergunta - (0.5 pontos por cada erro ortográfico) - (0.25 pontos por cada erro de acentuação ou pontuação).
