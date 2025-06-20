@@ -3,9 +3,9 @@ Português:
 --------------------------------------------------------
 Pergunta 1: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Enche a banheira com água salgada para colocar o tubarão."
 
-Resposta Ideal: Tipo Imperativo
+Resposta Ideal: Tipo imperativo ou frase imperativa.
 
-Pontuações: Refere que é do tipo imperativo (10 pontos). Refere outro tipo (0 pontos).
+Pontuações: Refere que é do tipo imperativo ou que é uma frase imperativa (10 pontos). Refere outro tipo (0 pontos).
 
 Pontuação total: (10 pontos)
 
@@ -13,9 +13,9 @@ Pontuação total: (10 pontos)
 --------------------------------------------------------
 Pergunta 2: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Que tubarão grande!"
 
-Resposta Ideal: Tipo exclamativo
+Resposta Ideal: Tipo exclamativo ou Frase exclamativa.
 
-Pontuações: Refere que é do tipo exclamativo (10 pontos). Refere outro tipo (0 pontos).
+Pontuações: Refere que é do tipo exclamativo ou que é uma frase exclamativa (10 pontos). Refere outro tipo (0 pontos).
 
 Pontuação total: (10 pontos)
 
