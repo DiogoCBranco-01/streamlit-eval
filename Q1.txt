@@ -13,7 +13,7 @@ Pontuação total: (10 pontos)
 --------------------------------------------------------
 Pergunta 2: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Que tubarão grande!"
 
-Resposta Ideal: Tipo exclamativo ou Frase exclamativa.
+Resposta Ideal: Tipo exclamativo ou frase exclamativa.
 
 Pontuações: Refere que é do tipo exclamativo ou que é uma frase exclamativa (10 pontos). Refere outro tipo (0 pontos).
 
