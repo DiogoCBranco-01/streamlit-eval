@@ -481,6 +481,7 @@ elif st.session_state.phase == "user":
             st.session_state.student_log = st.session_state.student_log[: st.session_state.begining_pos[1]]
             st.session_state.session_log = st.session_state.session_log[: st.session_state.begining_pos[2]]
             st.session_state.tutor_log = []
+            st.session_state.interaction = []
             st.session_state.response = st.session_state.chat_log[-1]['content']
             st.session_state.restart = False
             run_evaluator()
