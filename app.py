@@ -483,7 +483,7 @@ elif st.session_state.phase == "user":
             st.session_state.tutor_log = []
             st.session_state.response = st.session_state.chat_log[-1]['content']
             st.session_state.restart = False
-            st.session_state.phase == "tutor"
+            run_evaluator()
             st.rerun()
     
     user_input = st.chat_input("Resposta")
