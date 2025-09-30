@@ -384,7 +384,7 @@ elif st.session_state.phase == "system":
 elif st.session_state.phase == "tutor":
     #PROMPT ASSEMBLE
     if (st.session_state.position_block == False):
-        st.session_state.begining_pos[0]=len(st.session_state.chat_log)
+        st.session_state.begining_pos[0]=len(st.session_state.chat_log)-1
         st.session_state.begining_pos[1]=len(st.session_state.student_log) 
         st.session_state.begining_pos[2]=len(st.session_state.session_log)
         st.session_state.position_block=True
