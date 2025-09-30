@@ -34,7 +34,8 @@ if not st.session_state.choice_made:
         border: none;
         cursor: pointer;
         width: 70%;
-        font-size: 40px !important; 
+        font-size: 40px !important;
+        white-space: nowrap;
     }
     </style>
     """, unsafe_allow_html=True)
