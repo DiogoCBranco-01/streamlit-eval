@@ -19,6 +19,8 @@ if 'curr_debt' not in st.session_state:
 if 'token_count' not in st.session_state:
     st.session_state.token_count = [0, 0, 0]
 
+
+    
 # Safely extract last score if available
 if st.session_state.scores:
     last_score = st.session_state.scores[-1]
@@ -48,12 +50,15 @@ st.sidebar.markdown(f'''
 - Avaliador AI: **{st.session_state.token_count[0]}**
 - Estudante AI: **{st.session_state.token_count[1]}**
 - Tutor AI: **{st.session_state.token_count[2]}**
+
+#### Custo da Experiência:
+- Custo: {st.session_state.curr_debt:.2f} $
 ''')
 
 # Back to front page resetting everything
 reset_clicked = st.button("Back", help="Voltar a página anterior", key="reset_button")
 if reset_clicked:
-    keys_to_keep = {"curr_debt","prompt_text", "questions_text", "choice_made"}
+    keys_to_keep = {"poor_knowledge","selected_level","final_path","curr_debt","prompt_text", "questions_text", "choice_made", "student_prompt"}
     keys_to_delete = [key for key in st.session_state if key not in keys_to_keep]
     for key in keys_to_delete:
         del st.session_state[key]
@@ -71,8 +76,8 @@ with col2:
     st.title("Trusty Tutors")
         
 
-EVALUATOR_AVATAR = "🤖"
-TUTOR_AVATAR = "🧑‍🏫"
+EVALUATOR_AVATAR = "👨🏻‍💼"
+TUTOR_AVATAR = "🧔🏻‍♂️"
 STUDENT_AVATAR = "🧒"
 USER_AVATAR = "👤"
 
@@ -148,8 +153,9 @@ def chat_with_gpt():#ALTERAR AQUI
     except Exception as e:
         st.error(f"Erro ao contactar o avaliador: {e}")
         if st.button("🔄 Tentar novamente"):
-            st.experimental_rerun()
+            st.rerun()
         st.stop()
+
 
 def chat_with_std():
     msg = []
@@ -165,7 +171,7 @@ def chat_with_std():
     except Exception as e:
         st.error(f"Erro ao contactar o estudante: {e}")
         if st.button("🔄 Tentar novamente"):
-            st.experimental_rerun()
+            st.rerun()
         st.stop()
 
 def chat_with_tut():
@@ -182,11 +188,11 @@ def chat_with_tut():
     except Exception as e:
         st.error(f"Erro ao contactar o tutor: {e}")
         if st.button("🔄 Tentar novamente"):
-            st.experimental_rerun()
+            st.rerun()
         st.stop()
 def run_evaluator():
     st.session_state.response = chat_with_gpt()
-    if "SYSTEM" not in st.session_state.response:
+    if ("SYSTEM" not in st.session_state.response) and ("TUTOR" not in st.session_state.response):
         print_routine('assistant', re.sub(r'\[.*?\]', '',st.session_state.response).strip(), EVALUATOR_AVATAR)
     st.session_state.session_log.append({'role': 'assistant', 'content': "Avaliador: " + st.session_state.response})
     st.session_state.chat_log.append({'role': 'assistant', 'content': st.session_state.response})
@@ -196,7 +202,9 @@ def run_evaluator():
     elif "[STUDENT]" in st.session_state.response: st.session_state.phase = "student"
     elif "[SYSTEM]" in st.session_state.response: st.session_state.phase = "system"
     elif "[TUTOR]" in st.session_state.response: st.session_state.phase = "tutor"
-    else: st.session_state.phase = None
+    else:
+        st.warning("Erro na mensagem. Repita a mensagem anterior")
+        st.session_state.phase = "user"
 
 if "page_ready" not in st.session_state:
     st.session_state.page_ready = True
@@ -212,7 +220,7 @@ if "initialized" in st.session_state:
             with st.chat_message(message["role"],avatar=TUTOR_AVATAR):
                 st.markdown(message["content"].removeprefix("Tutor: "))
         if message["content"].lower().startswith("avaliador"):
-            if "SYSTEM" not in message["content"]:                
+            if (("SYSTEM" not in message["content"]) and ("TUTOR" not in message["content"])):                
                 with st.chat_message(message["role"],avatar=EVALUATOR_AVATAR):
                     st.markdown(re.sub(r'\[.*?\]', '', message["content"].removeprefix("Avaliador: ")).strip())
         elif message["content"].lower().startswith("utilizador"):
@@ -226,6 +234,8 @@ if "initialized" not in st.session_state:
     st.session_state.chat_log = []
     st.session_state.tutor_log = []
     st.session_state.student_log = []
+    st.session_state.refresh_memory = False
+    st.session_state.button_pressed = False
     #Specific stage logs
     st.session_state.student_part = True
     st.session_state.QUIZ = False
@@ -268,11 +278,19 @@ if "initialized" not in st.session_state:
 #STUDENT   
 if st.session_state.phase == "student": 
     if (st.session_state.student_part):
+        if st.session_state.button_pressed:
+            st.session_state.button_pressed = False
+            run_evaluator()
+            st.rerun()
+    
         if st.session_state.QUIZ: st.session_state.first_quiz.append("Questionário: " + st.session_state.response.replace("[STUDENT]",""))
+        if st.session_state.fQUIZ and (not st.session_state.refresh_memory):
+            st.session_state.student_log.append({'role': 'user', 'content': "## Para cada questão:\n   -**RACIOCINA** se já foste ensinado pelo Professor João.\n   -Se **foste ensinado**, então deves responder **apenas** com o conhecimento que o professor João te deu.\n   -Se **não foste ensinado** deves responder da mesma forma que da primeira vez que respondeste a essa pergunta;\n   -**Não podes reagir a esta mensagem**"})
+            st.session_state.refresh_memory = True
         st.session_state.student_log.append({'role': 'user', 'content': st.session_state.response.replace("[STUDENT]","")})
         
+                
         student = chat_with_std()
-        st.session_state.phase = None
         print_routine('assistant',student, STUDENT_AVATAR)
         st.session_state.session_log.append({'role': 'assistant', 'content':"Estudante: " + student})
         st.session_state.chat_log.append({'role': 'user', 'content': student})
@@ -290,23 +308,21 @@ if st.session_state.phase == "student":
             st.session_state.fQUIZ=False
         st.session_state.student_part = False
         st.rerun()
-    
     else:
         continue_pressed = st.button("➡️ Continuar")
         if continue_pressed:        
             #EVALUATOR
-            run_evaluator()
             if(st.session_state.QUIZ) and (st.session_state.phase == "user"):
                 st.session_state.QUIZ=False
             st.session_state.student_part = True
-        st.rerun()
+            st.session_state.button_pressed = True
+            st.rerun()
     
        
               
 #SYSTEM
 elif st.session_state.phase == "system":
     if "questions" in st.session_state.response.lower():
-        st.session_state.phase = None
         st.session_state.chat_log.append({'role': 'user', 'content': st.session_state.questions_text})
         st.session_state.QUIZ = True
         st.session_state.session_log.append({
@@ -323,7 +339,6 @@ elif st.session_state.phase == "system":
         try:
             with open("metrics.txt", "r", encoding="utf-8") as file:
                 prompt_metrics = file.read()
-                st.session_state.phase = None
         except FileNotFoundError:
             st.error("Erro: O ficheiro 'metrics.txt' não foi encontrado.")
             st.stop()
@@ -348,6 +363,7 @@ elif st.session_state.phase == "system":
         match = re.search(r'Scores\s+\[([^\]]+)\]', st.session_state.response)
         if match:
             parts = match.group(1).split(';')
+            parts[5]=parts[5].replace(',','.')
             try:
                 scores = list(map(int, parts[:5])) + [float(parts[5])]
                 entry = [st.session_state.prompt_text] + scores
@@ -356,6 +372,11 @@ elif st.session_state.phase == "system":
                 st.session_state.scores.append(entry)
             except (ValueError, IndexError):
                 st.warning("⚠️ Failed to parse score values correctly.")
+            
+            #EVALUATOR
+            st.session_state.chat_log.append({'role': 'user', 'content': "Correctly Saved"})
+            run_evaluator()
+            st.rerun()
         else:
             st.warning("⚠️ No valid score pattern found in the input text.")
                 
@@ -370,7 +391,7 @@ elif st.session_state.phase == "tutor":
     if(st.session_state.tutor_state[0]==False and st.session_state.tutor_state[1]==False):
         st.session_state.response = st.session_state.response.replace("[TUTOR]","")
         quiz = "\n".join(st.session_state.first_quiz)
-        st.session_state.response = st.session_state.response + "\nNível de conhecimento do estudante: " + quiz + "\n\n**Instruções Importantes**\n\n Define o que é necessário melhorar no conhecimento do estudante com base nas respostas dadas por ele e não reveles esse plano. Quando terminares a conversa com o estudante, envia uma mensagem final de despedida com uma tag [END] no início a mensagem:\n   [END] Obrigado, nome do estudante! Quando precisares de ajuda, ...\nComeça já a interagir com o estudante na tua próxima resposta:\n    Olá, nome do estudante!..."
+        st.session_state.response = st.session_state.response + "\nNível de conhecimento do estudante: " + quiz + "\n\n**Instruções Importantes**\n\n Define o que é necessário melhorar no conhecimento do estudante com base nas respostas dadas por ele e não reveles esse plano. Quando terminares a conversa com o estudante, envia uma mensagem final de despedida com uma tag [END] no início da mensagem:\n   [END] Obrigado, nome do estudante! Quando precisares de ajuda, ...\nComeça já a interagir com o estudante na tua próxima resposta:\n    Olá, nome do estudante!..."
         st.session_state.tutor_log.append({'role': 'user', 'content': st.session_state.response})
         st.session_state.tutor_state[0]=True
         st.session_state.tutor_state[1]=False
@@ -379,7 +400,8 @@ elif st.session_state.phase == "tutor":
             'content': (
                 "Avaliador: ---------------🎯 **Interação com Tutor** 🎯---------------\n\n"
                 )
-        }) 
+        })
+        #st.session_state.student_log.append({'role': 'system', 'content': st.session_state.student_prompt})
         st.rerun()
         
     #TUTOR
@@ -393,10 +415,10 @@ elif st.session_state.phase == "tutor":
             st.session_state.interaction.append("Tutor: "+tutor.replace("[END] ", "")+"\n")
             tutor_interaction = "\n".join(st.session_state.interaction)
             st.session_state.chat_log.append({'role': 'user', 'content': tutor_interaction})
-            st.session_state.tutor_state[0]=False
-            st.session_state.tutor_state[1]=False
             #EVALUATOR
             run_evaluator()
+            st.session_state.tutor_state[0]=False
+            st.session_state.tutor_state[1]=False
             st.session_state.fQUIZ=True   
         else:
             print_routine('assistant',tutor, TUTOR_AVATAR)
@@ -431,9 +453,9 @@ elif st.session_state.phase == "tutor":
             st.session_state.interaction.append("Tutor: I have finished the interaction with the student. You may proceed.\n")
             tutor_interaction = "\n".join(st.session_state.interaction)
             st.session_state.chat_log.append({'role': 'user', 'content': tutor_interaction})
+            run_evaluator()
             st.session_state.tutor_state[0] = False
             st.session_state.tutor_state[1] = False
-            run_evaluator()
             st.session_state.fQUIZ=True
             st.rerun()
         elif continue_pressed:
@@ -466,8 +488,7 @@ elif st.session_state.phase == "user":
     
     user_input = st.chat_input("Resposta")
     if user_input is None:
-        st.stop()
-    st.session_state.phase = None   
+        st.stop() 
     print_routine('user',user_input)
     st.session_state.session_log.append({'role': 'user', 'content':"Utilizador: " + user_input})
     st.session_state.chat_log.append({'role': 'user', 'content': user_input})

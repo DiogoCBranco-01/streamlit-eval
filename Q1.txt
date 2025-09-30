@@ -3,7 +3,7 @@ Português:
 --------------------------------------------------------
 Pergunta 1: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Enche a banheira com água salgada para colocar o tubarão."
 
-Resposta Ideal: Tipo imperativo ou frase imperativa.
+Resposta Ideal: Tipo imperativo ou Frase imperativa.
 
 Pontuações: Refere que é do tipo imperativo ou que é uma frase imperativa (10 pontos). Refere outro tipo (0 pontos).
 
@@ -13,7 +13,7 @@ Pontuação total: (10 pontos)
 --------------------------------------------------------
 Pergunta 2: Qual é o **__tipo de frase__** (Declarativo, Interrogativo, Exclamativo ou Imperativo) utilizado na frase: "Que tubarão grande!"
 
-Resposta Ideal: Tipo exclamativo ou frase exclamativa.
+Resposta Ideal: Tipo exclamativo ou Frase exclamativa.
 
 Pontuações: Refere que é do tipo exclamativo ou que é uma frase exclamativa (10 pontos). Refere outro tipo (0 pontos).
 
@@ -51,7 +51,7 @@ Pontuação total: (10 pontos)
 
 
 -------------------------------------------------------------
-Pergunta 6: **Lê** as frases e escolhe qual das palavras destacadas pertencem à classe **__quantificador numeral__**: "**O** rapaz **foi** pescar **duas** vezes com o avô. Como era **muito esperto**, convenceu o avô de que o tubarão era apenas **um peixe enorme**. A mãe **não** queria acreditar no que via, por isso **esfregou** os **olhos três** vezes!"
+Pergunta 6: **Lê** as frases e escolhe quais das palavras destacadas pertencem à classe **__quantificador numeral__**: "**O** rapaz **foi** pescar **duas** vezes com o avô. Como era **muito esperto**, convenceu o avô de que o tubarão era apenas **um peixe enorme**. A mãe **não** queria acreditar no que via, por isso **esfregou** os **olhos três** vezes!"
 
 Resposta Ideal: duas e três.
 
@@ -97,7 +97,7 @@ Pergunta 10: **Reescreve** as frases com **__preposições__**, sem as repetires
 
 Resposta Ideal: Após o almoço, eles decidiram ir até à praia para nadar com os peixes. Estava tanto frio que voltaram sem molhar os pés.
 
-Pontuações: Substitui cada ____ por uma preposição coerente com a estrutura das frases (2 pontos por cada)
+Pontuações: Substitui cada ____ por uma preposição coerente com a estrutura das frases (2 pontos por cada). Se o aluno alterar alguma das palavras da frase (estrutura original) para poder inserir uma preposição, essa preposição não deve ser contabilizada.
 
 Pontuação total: (10 pontos)
 

@@ -123,9 +123,11 @@ else:
                 with col2:
                     if st.button("Dados simulados"):
                         st.session_state.final_path = "user1"
+                        st.rerun()
                 with col4:
                     if st.button("Dados reais"):
                         st.session_state.final_path = "user2"
+                        st.rerun()
 
             elif st.session_state.path == "student":
                 with col2:
@@ -145,6 +147,7 @@ else:
                         st.session_state.student_number = "EM"
                         st.rerun()
             
+            
             col1, col2, col3 = st.columns([2.5, 2, 1])
             with col2:
                 reset_clicked = st.button("⟵", key="reset2_button")
@@ -160,5 +163,5 @@ else:
         exec(open("student.py").read())
     elif st.session_state.final_path == "user1":
         exec(open("interface.py").read())
-    else:
-        exec(open("interface.py").read())
+    elif st.session_state.final_path == "user2":
+        exec(open("interface_std_data.py").read())

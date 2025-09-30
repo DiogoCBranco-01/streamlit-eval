@@ -14,7 +14,11 @@ if "student_prompt" not in st.session_state:
     st.session_state.student_prompt = p.prompt_estudante
 if "selected_level" not in st.session_state:
     st.session_state.selected_level = None
-
+if "poor_knowledge" not in st.session_state:
+    st.session_state.poor_knowledge = ""
+if "stage" not in st.session_state:
+    st.session_state.stage = ""
+    
 placeholder = st.empty()
 student_ready = False
 # ---------- FRONT COVER ----------
@@ -58,10 +62,10 @@ if not st.session_state.app_started:
         st.markdown("""
         A experiência contará com a atuação dos seguintes **participantes**:
 
-        - 🤖 **Avaliador AI**
-        - 🧑‍🏫 **Tutor AI**
-        - 🧒 **Estudante AI**
-        - 👤 **Utilizador**
+        - 👨🏻‍💼 **Diretor/Formador Alfredo (AI)**
+        - 🧔🏻‍♂️ **Tutor Estagiário João (AI)**
+        - 🧒 **Aluno Pedro (AI)**
+        - 👤 **Utilizador (H)**
         """)
         st.write("")
 
@@ -69,89 +73,94 @@ if not st.session_state.app_started:
         st.markdown("""
         Esta aplicação oferece um ambiente conversacional num ciclo de **5 fases sequenciais**:
 
-        1. 🧾 **Questionário Inicial**  
-        O Estudante AI responde a uma lista de perguntas sugerida pelo utilizador, onde será avaliado o seu conhecimento atual.
+        1. 🧾 **Questionário ao Aluno AI**  
+        O aluno Pedro vai responder a uma lista de perguntas, onde será avaliado o seu conhecimento atual.
 
-        2. 🎓 **Interação com o Tutor AI**  
-        O Tutor AI tentará preparar melhor o Estudante AI, com base no conhecimento recolhido do questionário.
+        2. 🎓 **Interação entre o Tutor AI e o Aluno AI**  
+        O Tutor João tentará preparar melhor o Pedro, com base no conhecimento recolhido do questionário.
 
-        3. 📋 **Questionário Final**  
-        O Estudante AI responde novamente às mesmas perguntas, por forma a medir o seu progresso.
+        3. 📋 **Repetição do Questionário ao Aluno AI**  
+        O Pedro responderá novamente às mesmas perguntas, para ser possível medir o seu progresso.
 
-        4. 🧠 **Avaliação do Tutor**  
-        O Avaliador AI reflete sobre o desempenho do Tutor AI com base em critérios objetivos. Nesta fase será possível conversar abertamente com o Avaliador.
+        4. 🧠 **Avaliação do Tutor AI**  
+        O Direto Alfredo refletirá sobre o desempenho do Tutor João com base em critérios objetivos. Nesta fase será possível conversar abertamente com o Diretor Alfredo.
 
-        5. 🛠️ **Melhoria do Tutor**  
-        O Avaliador AI analisa a prompt atual do Tutor e sugere melhorias. Esta será uma fase importante para intervir e acrescentar ideias.
+        5. 🛠️ **Melhoria do Tutor AI**  
+        O Diretor Alfredo irá analisar a instrução atual dada ao Tutor João e sugere melhorias. Esta será uma fase importante para intervir e acrescentar ideias.
         """)
 
         st.markdown("""
-        🔁 **No final o objetivo passa por repetir o processo, voltando à fase 2 para avaliar o novo Tutor!**  
+        🔁 **No final, o objetivo passa por repetir o processo, voltando à fase 2 para testar o novo e melhorado Tutor João!**  
             Ideal para experimentar antes de aplicar em sala de aula.
         """)
         st.write("")
         
         with open("questions.txt", "r", encoding="utf-8") as f:
             question_examples = f.read()
+        
+        with open("Q1.txt", "r", encoding="utf-8") as f:
+            question_pt = f.read()
+        
+        with open("Q2.txt", "r", encoding="utf-8") as f:
+            question_em = f.read()
 
         with open("prompt.txt", "r", encoding="utf-8") as f:
             prompt_example = f.read()
             
         st.markdown("### Primeiros passos")
         st.markdown("""
-        **1-** Podes verificar o formato das **questões** que foi usado no desenvolvimento da app e, de seguida, insere as questões que aparecerão no questionário.
+        **1-** Verifique o formato das **questões** que foi usado no desenvolvimento da app e, de seguida, insere as questões que aparecerão no questionário.
         """)
 
         # Check student questions
-        with st.expander("Ler exemplo de questões"):
-            st.text_area("Formato das questões", value="------------------------\nPergunta 1: ....?\nResposta Ideal: ...\nCritérios de avaliação:\n\t-O aluno referiu isto. (2 pontos)\n\t-O aluno referiu aquilo. (3 pontos)\n\t(Total: 5 pontos)\n------------------------\nPergunta 2: ...?\n...\n------------------------\n\n Pontuação Total: X pontos", height=200,key="questions_example", disabled=True)
+        with st.expander("Ler um formato de questões possível"):
+            st.text_area("",value="------------------------\nPergunta 1: ....?\nResposta Ideal: ...\nPontuações:\n\t-O aluno referiu isto. (2 pontos)\n\t-O aluno referiu aquilo. (3 pontos)\nPontuação total: (5 pontos)\n------------------------\nPergunta 2: ...?\n...\n------------------------\n\n Pontuação Final: Soma das pontuações totais de cada pergunta - (0.5 por cada erro ortográfico cometido)", height=200,key="questions_example", disabled=True)
         
         # Edit questions
         with st.expander("📋 Escrever questões"):
             st.session_state.questions_text = st.text_area("", value=st.session_state.questions_text, height=200)
         
         
-        col1, col2, col3 = st.columns([0.5, 5, 0.5])
+        col1, col2, col3 = st.columns([2, 5, 0.5])
         with col2:    
             st.markdown("""
-                Podes fazer download das seguintes questões-tipo e copiá-las diretamente:
+                **Pré-preencher** as questões com:
             """)
-        col1, col2, col3 = st.columns([1.25, 2, 1])
+            
+        col1, col2, col3, col4 = st.columns([1, 2, 2, 1])
         with col2:
-            #Download questions
-            st.download_button(
-                label="📥 Download 'questions.txt'",
-                data=question_examples,
-                file_name="questions.txt",
-                mime="text/plain"
-            )
-        
+            if st.button("📖 Português 4º ano"):
+                st.session_state.questions_text = question_pt
+                st.rerun()
+        with col3:
+            if st.button("🍃 Estudo do Meio 4º ano"):
+                st.session_state.questions_text = question_em
+                st.rerun()
+                
         st.write("") 
         st.write("")
         st.write("") 
         st.write("")  
         st.markdown(""" 
-        **2-** Insere a **prompt**/**instrução** que irá configurar o teu Tutor.
+        **2-** Insira a **prompt**/**instrução** que irá configurar o teu Tutor.
         """)    
         
         # Edit prompt
         with st.expander("🎓 Escrever prompt do tutor"):
             st.session_state.prompt_text = st.text_area("(ex: És um tutor do 4º ano, não deves dar as respostas diretamente, ...)", value=st.session_state.prompt_text, height=300)
 
-        col1, col2, col3 = st.columns([0.5, 5, 0.5])
+        col1, col2, col3 = st.columns([2, 5, 0.5])
         with col2:    
             st.markdown("""
-                Podes fazer download da seguinte prompt-tipo e copiá-la diretamente:
+                **Pré-preencher** a prompt com:
             """)
-        col1, col2, col3 = st.columns([1.25, 2, 1])
+            
+            
+        col1, col2, col3 = st.columns([1.4, 2, 1])
         with col2:
-            #Download prompt
-            st.download_button(
-                label="📥 Download 'prompt.txt'",
-                data=prompt_example,
-                file_name="prompt.txt",
-                mime="text/plain"
-            )
+            if st.button("֎ Instrução Avançada"):
+                st.session_state.prompt_text = p.prompt_tutor
+                st.rerun()
             
         st.write("") 
         st.write("")
@@ -159,14 +168,8 @@ if not st.session_state.app_started:
         st.write("")
         
         st.markdown(""" 
-        **3-** Por fim escolhe o **nível do Estudante AI** que pretendes para a experiência. 
-        Para melhor contextualização, é possível consultar a instrução dada ao Estudante AI.
+        **3-** Por fim escolha o **nível do Aluno AI** que pretende para a experiência. 
         """)
-        
-        
-        # Check student prompt
-        with st.expander("Ler prompt do estudante"):
-            st.text_area("Prompt do estudante", value=st.session_state.student_prompt, height=200,key="prompt_estudante_display", disabled=True)
            
         
         # Radio options (with a placeholder)
@@ -179,7 +182,7 @@ if not st.session_state.app_started:
             default_index = options.index(f"Nível {st.session_state.selected_level}")
 
         selected_option = st.radio(
-            label="🧒 Escolher nível do Estudante",
+            label="🧒 Escolher nível do Pedro",
             options=options,
             index=default_index,
             horizontal=True
@@ -193,7 +196,18 @@ if not st.session_state.app_started:
             st.rerun()
         st.success(f"{selected_option} selecionado!")  
         student_ready = True
-                  
+        
+        if selected_level == 3:
+            with st.expander("Escrever matéria/s que aluno não deverá saber (opcional)"):
+                st.session_state.poor_knowledge = st.text_area("Garante a existência de **pelo menos** uma **matéria** onde o aluno terá **dificuldades**. (ex.: Graus dos adjetivos)", value=st.session_state.poor_knowledge, height=200,key="prompt_poor_knowledge_display", disabled=False)
+            if st.session_state.poor_knowledge.strip():
+                st.session_state.student_prompt =  p.prompt_estudante + f" Nível {selected_level}" + " e ainda não aprendeu nada sobre " + "**" + st.session_state.poor_knowledge + "**" + ", mantendo o **resto do seu conhecimento compatível com o nível atribuído**."
+
+        
+        # Check student prompt
+        with st.expander("Instrução do Pedro"):
+            st.text_area("Prompt do aluno", value=st.session_state.student_prompt, height=200,key="prompt_estudante_display", disabled=True)
+                    
         # Check if both fields are filled
         questions_ready = bool(st.session_state.questions_text.strip())
         prompt_ready = bool(st.session_state.prompt_text.strip())
@@ -203,8 +217,26 @@ if not st.session_state.app_started:
         st.write("")
         
         # Start app (enabled only if both are written)
-        if st.button("🚀 Começar", disabled=not (questions_ready and prompt_ready and student_ready)):
-            st.session_state.app_started = True
+        col1, col2, col3, col4 = st.columns([1.4, 2, 1, 1])
+        with col1:
+            if st.button("🚀 Começar", disabled=not (questions_ready and prompt_ready and student_ready)):
+                st.session_state.stage = "normal"
+                st.session_state.app_started = True
+        '''
+        with col2:
+            if st.button("Começar exp0", disabled=not (questions_ready and prompt_ready and student_ready)):
+                st.session_state.stage = "exp0"
+                st.session_state.app_started = True
+        with col3:
+            if st.button("Começar exp1", disabled=not (questions_ready and prompt_ready and student_ready)):
+                st.session_state.stage = "exp1"
+                st.session_state.app_started = True
+        with col4:
+            if st.button("Começar exp2", disabled=not (questions_ready and prompt_ready and student_ready)):
+                st.session_state.stage = "exp2"
+                st.session_state.app_started = True
+        '''
+        
         if st.session_state.app_started and not st.session_state.get("already_restarted", False):
             st.session_state.already_restarted = True  # To prevent rerunning infinitely
             placeholder.empty()
@@ -212,4 +244,12 @@ if not st.session_state.app_started:
 
 # ---------- App ----------
 else:
-    exec(open("app.py").read())
+    #st.warning("Here it is: " + st.session_state.stage)
+    if st.session_state.stage == "exp0":
+        exec(open("extract_log_tutor_1.py").read())
+    elif st.session_state.stage == "exp1":
+        exec(open("extract_log_tutor_2.py").read())  
+    elif st.session_state.stage == "exp2":
+        exec(open("extract_log_tutor_3.py").read())
+    elif st.session_state.stage == "normal":
+        exec(open("app.py").read())
