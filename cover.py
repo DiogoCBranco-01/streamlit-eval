@@ -33,7 +33,7 @@ if not st.session_state.choice_made:
         color: dark grey;
         border: none;
         cursor: pointer;
-        width: 70%;
+        width: 100% !important;
         font-size: 40px !important;
         white-space: nowrap;
     }
