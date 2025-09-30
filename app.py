@@ -41,17 +41,17 @@ st.sidebar.markdown(f'''
 - Níveis cognitivos: **{cognition}**
 - Correção ortográfica: **{spelling}**
 
-### Número de respostas:
+### Número total de respostas da sessão:
 - Avaliador AI: **{st.session_state.times[0]}**
 - Estudante AI: **{st.session_state.times[1]}**
 - Tutor AI: **{st.session_state.times[2]}**
 
-### Número de Tokens na janela de contexto:
+### Número atual de Tokens na janela de contexto:
 - Avaliador AI: **{st.session_state.token_count[0]}**
 - Estudante AI: **{st.session_state.token_count[1]}**
 - Tutor AI: **{st.session_state.token_count[2]}**
 
-#### Custo da Experiência:
+#### Custo da sessão:
 - Custo: {st.session_state.curr_debt:.2f} $
 ''')
 
