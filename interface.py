@@ -109,7 +109,7 @@ if not st.session_state.app_started:
             
         st.markdown("### Primeiros passos")
         st.markdown("""
-        **1-** Verifique o formato das **questões** que foi usado no desenvolvimento da app e, de seguida, insere as questões que aparecerão no questionário.
+        **1-** Verifique o formato das **questões** que foi usado no desenvolvimento da app e, de seguida, insira as questões que aparecerão no questionário.
         """)
 
         # Check student questions
@@ -142,7 +142,7 @@ if not st.session_state.app_started:
         st.write("") 
         st.write("")  
         st.markdown(""" 
-        **2-** Insira a **prompt**/**instrução** que irá configurar o teu Tutor.
+        **2-** Insira a **prompt**/**instrução** que irá configurar o seu Tutor.
         """)    
         
         # Edit prompt
